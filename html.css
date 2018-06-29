@@ -1,0 +1,40 @@
+@charset "utf-8";
+.box {
+	height: 2100px;
+	width: 1180px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border:1px solid #F00
+}
+.box .box1 {
+	height: 200px;
+	width: 1180px;
+	margin-top: 1500px;
+}
+.box .box1 .box2 {
+	float: left;
+	height: 200px;
+	width: 580px;
+	text-align:center;
+	
+}
+.login-button { /* 按钮美化 */
+	width: 270px; /* 宽度 */
+	height: 40px; /* 高度 */
+	border-width: 0px; /* 边框宽度 */
+	border-radius: 3px; /* 边框半径 */
+	background: #1E90FF; /* 背景颜色 */
+	cursor: pointer; /* 鼠标移入按钮范围时出现手势 */
+	outline: none; /* 不显示轮廓线 */
+	font-family: Microsoft YaHei; /* 设置字体 */
+	color: white; /* 字体颜色 */
+	font-size: 17px; /* 字体大小 */
+}
+.login-button:hover { /* 鼠标移入按钮范围时改变颜色 */
+	background: #5599FF;
+}
+#w{
+	background: #F00; 
+}
