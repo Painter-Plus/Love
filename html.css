@@ -6,16 +6,16 @@
 	margin-right: auto;
 	margin-bottom: 0px;
 	margin-left: auto;
-	border:1px solid #F00
+	
 }
 .box .box1 {
 	height: 200px;
 	width: 1180px;
-	margin-top: 1500px;
+	margin-top:400px;
 }
-.box .box1 .box2 {
+.box  .box2 {
 	float: left;
-	height: 400px;
+	height: 200px;
 	width: 580px;
 	text-align:center;
 	
@@ -38,4 +38,14 @@
 }
 #w{
 	background: #F00; 
+}
+.box .box3 {
+	height: 800px;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+.box .box3 #wx {
+	display: none;
 }
